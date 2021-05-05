@@ -1,0 +1,108 @@
+<html>
+    <link rel="stylesheet"  href="stylere.css" />
+    <head>
+        <title>
+            AB
+        </title>     
+    </head>
+    <body>
+        <div class="logo">
+         <a>   
+             <img src="pp3.png" height=30% >
+         </a>	
+        </div>
+
+        <div class="menu"> 
+          <li>
+             <a class="active"> 
+                 Our Services
+             </a>    
+          </li>
+          <li>    
+             <a>     
+                 Get Your Free Resouces
+             </a>
+         </li>
+         <li>   
+             <a>
+                 Learn your way to digital
+             </a>
+         </li>      
+        </div>
+        <div class="video-container">
+             <iframe width="560" height="240" src="https://www.youtube.com/embed/K_7To_y9IAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+             </iframe>
+        </div>
+        <div class="video-buttons">
+         <li>
+             <a href="javascript:void(0)" onclick="myFunction(0)">MARKETING <img src="button.png" height=100% >
+             </a>
+         </li>
+         <li>
+             <a href="javascript:void(0)" onclick="myFunction(1)">DESIGNING<img src="button.png" height=100% >
+            </a>
+         </li> 
+         <li>
+             <a href="javascript:void(0)" onclick="myFunction(2)">BRANDING<img src="button.png" height=100% >
+             </a>
+         </li>
+         <li>
+              <a href="javascript:void(0)"  onclick="myFunction(3)">PRINTING<img src="button.png" height=100% >
+               </a>
+         </li>
+         <li>
+             <a href="javascript:void(0)"  onclick="myFunction(4)">VIDEOS<img src="button.png" height=100% >
+              </a>
+         </li>
+         <li>
+              <a href="javascript:void(0)" onclick="myFunction(5)">AMAZON ADS<img src="button.png" height=100% >
+               </a>
+         </li>
+        </div>
+        <div class="video" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video1" id="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+        <div class="video2" id="video2">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+        <div class="video3" id="video3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>      
+        <div class="video4" id="video4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>   
+        <div class="video5" id="video5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wBMkvtRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>   
+            
+   <script>
+       function myFunction(y)
+        {
+            console.log(y);
+            var i=0;
+            var a=[document.getElementById("video"),document.getElementById("video1"),document.getElementById("video2"),document.getElementById("video3")
+                   ,document.getElementById("video4"),document.getElementById("video5")];  
+            for(i=0;i<6;i++)
+               {    
+                    if(i==y)
+                    {       
+                        if (a[i].style.display === "block") 
+                        {
+                            a[i].style.display = "none";
+                        }
+                        else  
+                       a[i].style.display = "block";
+                    }
+                    else
+                        a[i].style.display = "none";
+                }
+                
+           
+        
+    }
+   </script>
+   </body>             
+</html>
