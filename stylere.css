@@ -1,0 +1,105 @@
+.logo
+{
+    margin-left: 45vw;
+    height: 10vw;
+
+}
+.menu
+{
+    width:80%;
+    margin-left: 13vw;
+    margin-top: 1vw;
+}
+.menu li
+{
+    display: inline-block;
+    text-align: center;
+    width: 24vw;
+    height: 4vw;
+}
+.menu li a
+{  
+    padding:1vw 3vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:yellow;
+    background-color: red;
+}
+.menu a.active
+{   
+    margin-left: 8vw;
+    padding: 1vw 3vw;
+    color: red;
+    background-color: yellow;
+    transform: translateY(3px);  
+
+}	
+.menu li:hover a, .menu li span
+{
+    color: red;
+    border-left: 1px solid #9b870c;
+    background-color: yellow;
+}
+.video-container
+{   
+    margin-left: 28vw;
+}
+.video-buttons
+{
+    margin-top: 1vw;
+    margin-left: 27vw;
+    width: 60vw;
+    height: 4vw;
+    
+}
+.video-buttons li
+{
+    display: inline-block;
+    text-align: center;
+    width: 5.5vw;
+    padding: 0vw 1vw;
+
+}
+.video-buttons li a
+{
+    font-size: 1.1vw;
+    font-weight: 800;
+    font-style: Arial;
+    color:black;
+    text-decoration: none;
+}
+.video
+{
+     display: none;  
+}
+.video1
+{
+  
+    display: none;
+   
+}
+.video2
+{
+   
+    display: none;
+   
+}
+.video3
+{
+ 
+    display: none;
+   
+}
+.video4
+{
+  
+    display: none;
+   
+}
+.video5
+{
+   
+    display: none;
+   
+}
